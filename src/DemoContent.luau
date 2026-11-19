@@ -11,7 +11,7 @@ local TweenService = game:GetService("TweenService")
 
 local DemoContent = {}
 
-local STUDS = "rbxassetid://78165738325794"
+local STUDS = "rbxassetid://135184886143377"
 local RARITY = {
 	{ "#7dff6b", "#2fbf3a" }, -- common green
 	{ "#5bd2ff", "#2a7dff" }, -- rare blue
@@ -84,7 +84,7 @@ function DemoContent.init(ctx: any)
 			g.Rotation = 90
 			g.Color = ColorSequence.new(hex(r[1]), hex(r[2]))
 			g.Parent = slot
-			for k = 1, 2 do
+			for k = 1, 1 do
 				local s = Instance.new("ImageLabel")
 				s.Name = "Studs" .. k
 				s.BackgroundTransparency = 1

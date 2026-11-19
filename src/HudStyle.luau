@@ -94,7 +94,7 @@ function HudStyle.init(ctx: any)
 		local b = hud:FindFirstChild(n)
 		if b then
 			-- 3 layers on the wide left buttons (one shows only zoomed in), 2 on the small square tabs
-			strengthenStuds(b, if string.sub(n, 1, 3) == "Tab" then 2 else 3)
+			strengthenStuds(b, 1)
 		end
 	end
 	for name, spec in TABS do

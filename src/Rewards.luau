@@ -28,7 +28,7 @@ local DAYS = {
 	{ icon = "cash", amount = "+$100B" },
 	{ icon = "star", amount = "MEGA" },
 }
-local STUDS = "rbxassetid://78165738325794"
+local STUDS = "rbxassetid://135184886143377"
 
 local function hex(s: string): Color3
 	return Color3.fromHex(s)
@@ -182,7 +182,7 @@ function Rewards.init(ctx: any)
 		else
 			grad(tile, "#5b7cff", "#3a3fd6")
 		end
-		studs(tile, 20, 2)
+		studs(tile, 20, 1)
 		text(tile, "Day " .. i, 28, UDim2.new(0.5, 0, 0, 26), 6)
 		icon(tile, d.icon, if i == 7 then 92 else 78, UDim2.fromScale(0.5, 0.52), 6)
 		text(tile, d.amount, 24, UDim2.new(0.5, 0, 1, -26), 6)

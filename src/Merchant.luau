@@ -74,7 +74,7 @@ end
 
 -- the SpeedPets stud texture (same image + tile as the pack's buttons and windows), so both packs read as one set.
 -- inset = fraction trimmed off each side, so the rectangle stays inside the art's bevelled / angled edge.
-local STUDS = "rbxassetid://78165738325794"
+local STUDS = "rbxassetid://135184886143377"
 -- layers = 1 stacks a second copy: the stud image is a soft highlight, too faint on dark or deep colours alone.
 local function addStuds(on: GuiObject, opts: { inset: Vector2?, area: { number }?, tile: number?, transparency: number?, z: number?, layers: number? })
 	if on:FindFirstChild("MerchantStuds") then
