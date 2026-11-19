@@ -5,6 +5,8 @@ your mouse, and the world blurs behind it.
 
 Made by **@momentumcash**. Free to use in your games.
 
+![3D UI Pack](pics/card.png)
+
 ![Merchant](pics/merchant.png)
 
 ## What you get
